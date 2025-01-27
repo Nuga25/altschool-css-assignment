@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 40px;
+  font-family: "Poppins", serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h1 > span {
+  color: purple;
+}
+
+h3 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: purple;
+  border: 1px solid purple;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  a {
+    color: purple;
+  }
+}

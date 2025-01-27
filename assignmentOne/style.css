@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #313030;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+}
+
+.container {
+  background-color: #fff;
+  width: 25%;
+  padding: 50px 25px 20px 25px;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-text {
+  background-color: rgb(237, 31, 154);
+  position: absolute;
+  top: -8%;
+  width: 85%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
