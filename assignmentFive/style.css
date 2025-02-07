@@ -192,7 +192,6 @@ span > a {
 
 h3 + div {
   display: flex;
-  flex-direction: row;
   align-items: baseline;
 }
 
